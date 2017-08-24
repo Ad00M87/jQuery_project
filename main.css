@@ -1,0 +1,28 @@
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+#options {
+  width: 50%;
+  float: left;
+  border-right: solid 1px black;
+}
+
+#cart {
+  margin-left: 51%;
+}
+
+.mower {
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+}
+
+#empty {
+  display: none;
+}
+
+header {
+  background: rgb(20, 30, 140);
+  border-bottom: 20px solid green;
+}

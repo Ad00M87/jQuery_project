@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery App</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+
+      <div class="mower">
+        <image src="mower.png" width="400px" height="200px">
+      </div>
+
+    </header>
+
+    <div id='wrapper'>
+
+      <div id='options'>
+        <h1 id='title'>Lawn Mowing Service</h1>
+        <h2 id='price'>$50.00 /mo</h2>
+        <p>Choose a plan</p>
+        <select id='plan'>
+          <option value="monthly">Monthly</option>
+          <option value="quarterly">Quarterly</option>
+          <option value="yearly">Yearly</option>
+        </select>
+        <button id='add'>Add To Cart</button>
+        <button id='display-cart'>Hide Cart</button>
+      </div>
+
+      <div id='cart'>
+        <h1>Cart</h1>
+        <button id='empty'>Clear Cart</button>
+        <hr />
+        <ul id='in-cart'>
+        </ul>
+        <h2 id='total'>$0</h2>
+
+        <div id="complete">
+          <button id="purchase">Purchase</button>
+        </div>
+
+      </div>
+
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
